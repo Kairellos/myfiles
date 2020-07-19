@@ -17,7 +17,7 @@
     "volumes": [
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Music"
+        "bind": "/srv/dev-disk-by-label-disk1/media/music"
 
       },
       {
@@ -41,7 +41,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -114,18 +114,18 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -160,18 +160,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Music"
+        "bind": "/srv/dev-disk-by-label-disk1/media/music"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -238,7 +238,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -270,7 +270,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -325,7 +325,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -364,7 +364,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -398,7 +398,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -433,7 +433,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -510,12 +510,12 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "GUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "TZ",
@@ -567,7 +567,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
         
       },
       {
@@ -601,18 +601,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -640,14 +640,14 @@
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Music"
+        "bind": "/srv/dev-disk-by-label-disk1/media/music"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -703,14 +703,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -742,7 +742,7 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "note": "Deemix may take a few minutes to install. Be sure to check the logs for details. Refer to <a href='https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken'>this page</a> for userToken details."
@@ -766,14 +766,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -815,7 +815,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -851,7 +851,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -898,7 +898,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -932,18 +932,18 @@
       },
       {
         "container": "/data/tvshows",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/data/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1009,7 +1009,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1050,7 +1050,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1110,7 +1110,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1150,7 +1150,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1181,18 +1181,18 @@
       },
       {
         "container": "/Downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Music"
+        "bind": "/srv/dev-disk-by-label-disk1/media/music"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1229,7 +1229,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1289,14 +1289,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1330,18 +1330,18 @@
       },
       {
         "container": "/data/tvshows",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/data/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1380,7 +1380,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1419,7 +1419,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1480,7 +1480,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1554,7 +1554,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1589,7 +1589,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1628,7 +1628,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1660,18 +1660,18 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1704,7 +1704,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1736,7 +1736,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1768,7 +1768,7 @@
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ]
   },
@@ -1812,7 +1812,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1861,7 +1861,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1898,7 +1898,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1930,7 +1930,7 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/comics",
@@ -1941,7 +1941,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -1972,14 +1972,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2012,14 +2012,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2051,7 +2051,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2103,7 +2103,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2163,7 +2163,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2200,7 +2200,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2241,7 +2241,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2276,7 +2276,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2318,7 +2318,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2384,7 +2384,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2415,18 +2415,18 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2468,7 +2468,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2514,7 +2514,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2580,7 +2580,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2614,7 +2614,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2646,18 +2646,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-disk1/Movies"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/movies"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2714,14 +2714,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2753,18 +2753,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/incomplete-downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads/incomplete"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads/incomplete"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2819,18 +2819,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2862,18 +2862,18 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2911,7 +2911,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -2947,18 +2947,18 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-disk1/TV"
+        "bind": "/srv/dev-disk-by-label-disk1/media/videos/series"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3000,7 +3000,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3039,7 +3039,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3073,7 +3073,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3130,7 +3130,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3172,7 +3172,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3202,7 +3202,7 @@
     "volumes": [
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/etc/localtime",
@@ -3213,7 +3213,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3273,7 +3273,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3319,7 +3319,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3361,7 +3361,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3418,7 +3418,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3541,7 +3541,7 @@
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3573,18 +3573,18 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-disk1/Music"
+        "bind": "/srv/dev-disk-by-label-disk1/media/music"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3617,14 +3617,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
@@ -3657,14 +3657,14 @@
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-disk1/Downloads"
+        "bind": "/srv/dev-disk-by-label-disk1/media/downloads"
       }
     ],
     "env": [
       {
         "name": "PUID",
         "label": "PUID",
-        "default": "1000"
+        "default": "1001"
       },
       {
         "name": "PGID",
